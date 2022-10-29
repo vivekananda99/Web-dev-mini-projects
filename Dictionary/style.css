@@ -293,7 +293,28 @@ justify-content: space-around;
   transition: 0.3s;
 }
 
-#footer .footer-top .social-links a:hover {
+#footer{
+   
+   background-color:goldenrod;
+  color: black;
+  
+}
+
+.footer-top {
+   
+   background-color:goldenrod;
+  color: black;
+  
+}
+
+.social-links {
+   
+   background-color:goldenrod;
+  color: black;
+  
+}
+
+a:hover {
    
    background-color:goldenrod;
   color: black;
