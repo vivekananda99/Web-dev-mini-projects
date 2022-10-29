@@ -6,6 +6,11 @@
   padding: 0;
 }
 
+.circle:nth-of-type(4) {
+  animation-delay: 0.70s;
+  background-color: var(--secondary-clr);
+}
+
 :root {
   --primary_clr: #343a40;
   --secondary-clr: rgb(135, 57, 250);
@@ -54,11 +59,7 @@ body {
 }
 
 .circle:nth-of-type(2) {
-  animation-delay: 0.75s;
-  background-color: var(--secondary-clr);
-}
-.circle:nth-of-type(4) {
-  animation-delay: 0.75s;
+  animation-delay: 0.70s;
   background-color: var(--secondary-clr);
 }
 @keyframes grow {
